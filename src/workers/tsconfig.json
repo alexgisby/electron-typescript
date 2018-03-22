@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+        "outDir": "../../app/workers",
+        "target": "es5",
+        "module": "es2015",
+        "lib": ["es5", "es6", "webworker", "scripthost"]
+    },
+    "include": [
+        "./**/*"
+    ]
+}

@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+node_modules
+
+app/js
+app/backend
+app/workers
+babel_cache
